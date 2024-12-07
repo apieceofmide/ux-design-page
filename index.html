@@ -87,7 +87,7 @@
         display: flex;
         justify-content: center; /* Horizontally */
         align-items: center;
-        margin: 100px 70px 70px 70px;
+        margin: 100px 100px 70px 100px;
       }
       .page-header {
         width: 100%;
@@ -98,9 +98,9 @@
         flex-direction: column;
         justify-content: center; /* Horizontally center the content */
         align-items: center;
-        margin: 0px 70px 70px 70px;
+        margin: 0px 100px 70px 100px;
       }
-      .project-1 {
+      .project-1 ,.project-2 {
         display: flex;
         justify-content: center; /* Horizontally center the content */
         align-items: center;
@@ -109,18 +109,22 @@
         width: 100%;
         border-radius: 60px;
         margin: 50px auto;
-        background-color: #555;
+        background-color: #515b3a;
       }
-      .project-2 {
+      
+      .project-1-1 {
         display: flex;
         justify-content: center; /* Horizontally center the content */
         align-items: center;
         
         height: 600px;
-        width: 100%;
-        border-radius: 60px;
+        width: 43%;
+        border-radius: 60px 0px 0px 60px;
         margin: 50px auto;
-        background-color: #555;
+        background-color: #500;
+        
+        position: relative;
+        left: -365;
       }
 
     </style>
@@ -143,13 +147,16 @@
     </div>
     
     <div class="projects-in-pages">
-      <div class="project-1"></div>
-      <div class="project-2"></div>
+      <div class="project-1">
+        <div class="project-1-1"></div>
+      </div>
+      <div class="project-2">
+         <div class="project-1-1"></div>
+      </div>
     </div>
     
     
     <div class="bottomnav">
-     
        <p>
          Lets create something fun! <br>
          mideibidapo@gmail.com <3
