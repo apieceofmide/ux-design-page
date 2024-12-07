@@ -1,23 +1,156 @@
 <!DOCTYPE html>
-<style>
-  /* netnet default bg */
-  body {
-    margin: 0;
-    background-image: linear-gradient(#515199a8 2px, transparent 1px),
-      linear-gradient(90deg, #515199a8 2px, transparent 1px);
-    background-size: 50px 50px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
-
-  body::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(0deg, #c76ebca8, #515199a8);
-  }
-</style>
+<html lang="eng-ca">
+  <head>
+    <meta charset="utc-8">
+    <title>Exercise 7</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Serif">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap">
+    <style>
+      body {
+        background-color: #FDEFC8;
+        margin: 0;
+        padding: 0;
+      }
+      .topnav {
+        background-color: #515b3a;
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Vertically align items */
+        padding: 30px 20px 20px; /* Add some padding for spacing */
+        width: 100%;
+      }
+      .bottomnav {
+        background-color: #515b3a;
+        width: 100%; /*god help me*/
+        display: flex; /* Make the bottomnav a flex container */
+        justify-content: space-between; /* Separate the text and list */
+        align-items: center; /* Center items vertically */
+        padding: 25px 20px 10px 20px; /* Add some padding for spacing */
+        position: relative;
+        bottom: 0;
+        
+        font-family: "Sen", sans serif;
+        font-size: 20px;
+        color: #FDEFC8;
+        
+      }
+      .top {
+        background-color: #515b3a;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+        display: flex;
+        gap: 10px; 
+        margin-left: auto; 
+        
+        font-family: "Sen", sans serif;
+        font-size: 20px;
+      }
+       .bottomlist {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+        display: flex;
+        margin-left: auto;
+      }
+      li {
+        float: left;
+        text-decoration: none;
+      }      
+      li a {
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+        color: #FDEFC8;
+      }
+      li a:hover:not(.active) {
+        border-bottom: 3px solid;
+        padding-bottom: 5px;
+      }
+      .active {
+        border-bottom: 3px solid;
+        padding-bottom: 5px;
+      }
+      .logo img {
+        max-height: 25px;
+        height: auto;
+      }
+      .socials img {
+        display: flex;
+        width: 55px;
+        height: auto;
+      }
+      .homepageimg {
+        width: 100%;
+        height: auto;
+        max-height: 700px;
+        position: relative;
+        padding: 40px 30px 50px 50px;
+      }
+      .homepage-flowers1 {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        top: 45;
+        right: -39;
+      }
+      .homepage-flowers2 {
+        width: 59%;
+        height: auto;
+        position: absolute;
+        bottom: -300;
+        left: -486;
+      }
+      
+      .homepage {
+        display: flex;
+        margin: auto;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="logo" href="#logo"> <img src="Ayomide Ibidapo.svg" alt="logo"></a>
+      <ul class="top">
+        <li><a href="#ux-design">UX Design</a></li>
+        <li><a href="#graphic-design">Graphic Design</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>  
+    </div>
     
+      <div>
+      <img class="homepage-flowers1" src="Sakura Right.png" alt="Flowers on right side">
+    </div>
+      <div>
+      <img class="homepage-flowers2" src="Sakura Left 1.png" alt="Flowers on left side">
+    </div>
+
+    <div class="homepage">
+       <img class="homepageimg" src="Homepage.svg" alt="homepage">
+    </div>
+      
+    
+    <div class="bottomnav">
+     
+       <p>
+         Lets create something fun! <br>
+         mideibidapo@gmail.com <3
+       </p>
+    
+      
+        <ul class="bottomlist">
+          <li><a class="socials" href="#linkedin"><img src="Linkedin.png" alt="Linkedin Logo"></a></li>
+          <li><a class="socials" href="#twitter"><img src="Twitter.png" alt="X Logo"></a></li>
+        </ul>
+       
+    </div>
+    
+  </body>
+</html>
