@@ -16,6 +16,16 @@
         font-size: 55px;
         color: #FDEFC8;
       }
+      h3 {
+        font-family: "Sen", sans serif;
+        font-size: 40px;
+        color: #FDEFC8;
+      }
+      .body-text {
+        font-family: "Sen", sans serif;
+        font-size: 25px;
+        color: #FDEFC8;
+      }
       .topnav {
         background-color: #515b3a;
         display: flex; /* Use flexbox for layout */
@@ -105,7 +115,34 @@
         align-items: center;
         margin: 0px 100px 70px 100px;
       }
-      .project-1 ,.project-2 {
+      .project-2 {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+        
+        height: 600px;
+        width: 70%;
+        border-radius: 60px;
+        margin: 50px auto;
+        background-color: #515b3a;
+      }
+      .project-line-1 {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+        
+        height: 600px;
+        width: 100%;
+
+        margin: 50px auto;
+        background-color: blue;
+      }
+      .prototype {
+        width: 43%;
+        height: auto;
+      }
+      
+      .project-1 {
         display: flex;
         justify-content: center; /* Horizontally center the content */
         align-items: center;
@@ -113,22 +150,15 @@
         height: 600px;
         width: 100%;
         border-radius: 60px;
-        margin: 50px auto;
+        
         background-color: #515b3a;
       }
-      
-      .project-1-1 {
+      .project-text {
         display: flex;
         justify-content: center; /* Horizontally center the content */
         align-items: center;
-        
-        height: 600px;
-        width: 43%;
-        border-radius: 60px 0px 0px 60px;
-        margin: 50px auto;
-        margin-right: 0px;
-        background-color: #500;
-        
+        flex-direction: column;
+        text-align: center;
         
       }
 
@@ -152,17 +182,23 @@
     </div>
     
     <div class="projects-in-pages">
-      <div class="project-1">
-        <div class="project-1-1">
-        </div>
-        <h2>
-          KitKash
-          </h2>
+      <div class="project-line-1">
+        <img class="prototype" src="KitKash.png" alt="KitKash Prototype">
+          <div class="project-1">
+            <div class="project-text">
+            <h2>KitKash</h2>
+            <h3>F24 uX Design Jam</h3>
+            <p class="body-text">My team and I were challenged to create an app which focused to solve the financial literacy disparity that occurs for Canadians between 24-35</p>
+            </div>
+          </div> 
       </div>
-      <div class="project-2">
-         <div class="project-1-1"></div>
+      
+       <div class="project-2">
+         <img src="DesNet.png" alt="DesNet Prototype">
+        <h2>KitKash</h2>
+        </div>  
       </div>
-    </div>
+  
     
     
     <div class="bottomnav">
