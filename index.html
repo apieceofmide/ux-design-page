@@ -18,7 +18,6 @@
       h3 {
         font-family: "Sen", sans serif;
         font-size: 40px;
-        
         font-weight: normal;
       }
       p {
@@ -30,17 +29,41 @@
       }
       .topnav {
         background-color: #515b3a;
-        display: flex;
-        align-items: center;
+        display: flex; /*
+          Code copied from: https://www.w3schools.com/css/css3_flexbox.asp
+          Author: w3school
+          Name: CSS Flexbox
+          Description: Explains what Flexbox is and how display:flex is used
+          Date retrieved: 12/05/24
+          */
+        align-items: center; /*
+          Code copied from: https://www.w3schools.com/cssref/css3_pr_align-items.php
+          Author: w3school
+          Name: CSS align-items Property
+          Description: Explains how align-items worked
+          Date retrieved: 12/05/24
+          */
         padding: 60px 20px 20px;
         width: 100%;
-        box-sizing: border-box;
+        box-sizing: border-box; /*
+          Code copied from: https://www.w3schools.com/css/css3_box-sizing.asp
+          Author: w3school
+          Name: CSS Box Sizing
+          Description: Explains how box sizing works
+          Date retrieved: 12/05/24
+          */
       }
       .bottomnav {
         background-color: #515b3a;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; /*
+          Code copied from: https://www.w3schools.com/cssref/css3_pr_justify-content.php
+          Author: w3school
+          Name: CSS justify-content Property
+          Description: Explains how justify-content works
+          Date retrieved: 12/05/24
+          */
         align-items: center;
         padding: 0px 20px 0px 20px;
         position: relative;
@@ -104,7 +127,7 @@
       }
       .pages {
         display: flex;
-        justify-content: center; /* Horizontally */
+        justify-content: center;
         align-items: center;
         margin: 100px 150px 70px 150px;
       }
@@ -114,7 +137,13 @@
       }
       .projects-in-pages {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; /*
+          Code copied from: https://www.w3schools.com/css/css3_flexbox_container.asp
+          Author: w3school
+          Name: CSS Flex Container
+          Description: Explains how to make things in a column
+          Date retrieved: 12/07/24
+          */
         justify-content: center;
         align-items: center;
         margin: 0px 150px 70px 150px;
@@ -162,7 +191,13 @@
         
         position: absolute;
         top: 1300;
-        z-index: -1;
+        z-index: -1; /*
+          Code copied from: https://www.shecodes.io/athena/4380-how-to-set-an-image-behind-text-with-z-index#:~:text=The%20correct%20way%20to%20send,CSS%20code%20is%20given%20below.
+          Author: SheCodes
+          Name: How to Set an Image Behind Text with Z-Index
+          Description: Explains how to make things go behind other items
+          Date retrieved: 12/08/24
+          */
       }
     </style>
   </head>
@@ -213,7 +248,13 @@
     <div class="bottomnav">
       <p>
         Lets create something fun! <br>
-         <a style="text-decoration:none;color:#FDEFC8;font-size:30px;" href="mailto:aibidapo@uwaterloo.ca">aibidapo@uwaterloo.ca <3 </a>
+         <a style="text-decoration:none;color:#FDEFC8;font-size:30px;" href="mailto:aibidapo@uwaterloo.ca">aibidapo@uwaterloo.ca <3 </a> <!--
+          Code copied from: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
+          Author: w3school
+          Name: HTML mailto
+          Description: Explains how mail to links work
+          Date retrieved: 12/09/24
+          -->
       </p>
       <ul class="bottomlist">
         <li><a class="socials" href="www.linkedin.com/in/ayomide-ibidapo-776130261"><img src="Linkedin.png" alt="Linkedin Logo"></a></li>
